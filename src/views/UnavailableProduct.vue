@@ -1,5 +1,3 @@
-
-
 <script>
 export default {
     name: "UnavailableProduct",
@@ -15,10 +13,12 @@ export default {
     },
 };
 </script>
+
 <template>
     <div class="unavailable-product-container">
         <p>This product is unavailable</p>
         <button @click="handleClick">{{ buttonName }}</button>
     </div>
 </template>
+
 <style scoped src="../assets/styles/UnavailableProduct.css"></style>
