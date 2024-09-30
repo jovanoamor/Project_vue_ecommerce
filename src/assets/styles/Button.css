@@ -1,0 +1,16 @@
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px ;
+}
+.dynamic-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: none;
+  width: 260px;
+  height: 45px;
+  top: 620px;
+  left: 600px;
+}
