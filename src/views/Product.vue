@@ -8,10 +8,11 @@ import UnavailableProduct from './UnavailableProduct.vue';
 export default {
     name: 'ProductView',
     components: {
+        UnavailableProduct,
         LoadingSpinner,
-        ProductButton,
         RatingProduct,
-        UnavailableProduct
+        ProductButton
+        
     },
     data() {
         return {
